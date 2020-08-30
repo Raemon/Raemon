@@ -1,8 +1,5 @@
 body {
-  padding: 4px 12px 0 12px
-}
-
-p {
+  padding: 4px 12px 0 12px;
   font-size: 1.2em;
   font-family: "Poppins", Verdana, sans-serif
 }
