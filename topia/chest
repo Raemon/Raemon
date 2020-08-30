@@ -1,0 +1,16 @@
+<html>
+ <header>
+  <link rel="stylesheet" href="../styles.css">
+ </header>
+ <body>
+  <script>
+    var unlock = function () {
+      console.log("trying")
+      console.log(document.getElementById("lock").value)
+    }
+  </script>
+  <label>Combination Lock</label>
+  <input id="lock"/>
+  <button></button>
+ </body>
+</html>
