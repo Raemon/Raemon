@@ -5,8 +5,12 @@
  <body>
   <script>
     var unlock = function () {
-      console.log("trying")
-      console.log(document.getElementById("lock").value)
+      var value = document.getElementById("lock").value
+      if (value === "945623456") {
+       alert("Hurray! You open the chest. Inside is a note saying 'You are welcome to suggest to Ray a good prize to actually be in the chest, and if Ray thinks your idea is good, you will go down in history as the one who put a treasure in the box.'")
+      } else {
+       alert("The lock is unmoved by your clever prying.")
+      }
     }
   </script>
   <label>Combination Lock</label>
