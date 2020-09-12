@@ -9,7 +9,7 @@ li {
 }
 
 button {
-  backgroundColor: blue;
+  background: rgba(100,100,255);
   border:none;
   padding: 12px 16px;
   borderRadius: 5px;
