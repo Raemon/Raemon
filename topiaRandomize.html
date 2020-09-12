@@ -1,13 +1,38 @@
 <html>
 <body>
   <script>
-    var i = Math.random()
-    if (i > .5) {
-      window.location.href = "https://topia.io/rational-woods";
-    } else {
-      window.location.href = "https://topia.io/the-ocean-floor-free-5haiumuwt";
+    function randomWorld() {
+      var i = Math.random()
+      if (i > .5) {
+        window.location.href = "https://topia.io/rational-woods";
+      } else {
+        window.location.href = "https://topia.io/the-ocean-floor-free-5haiumuwt";
+      }
+    }
+    function randomIntro() {
+      var i = Math.random()
+      if (i < .25) {
+        window.location.href = "https://topia.io/welcome-to-the-everwilds-free-cs4ngtic9";
+      } else if (i >= .25 && i < .5) {
+        window.location.href = "https://topia.io/the-in-between-free-9ogi3ait9";
+      } else if (i >= .5 && i < .75) {
+        window.location.href = "https://topia.io/the-in-between-free-t4y1fz495";
+      } else {
+        window.location.href = "https://topia.io/the-in-between-free-5lidgj1zg";
+      }
     }
   </script>
-  <p>Randomizing world...</p>
+  <h3>Welcome to Ray's Birthday!</h3>
+  <p>This party will be in connected series of Topia worlds. Topia is an adorable videochat app where walk around and talk to people near you. It works fine on most computers but some people experience lag when too many people gather together. So, the world is deliberately big. You're encouraged to explore the world, and meet people along the way.</p>
+  <p><b>Please disable ad-block.</b> Unfortunately adblock started blocking Topia yesterday.</p>
+  <p>Topia
+  <p>If you have any problems, I recommend:</p>
+    <ul>
+      <li>Turning it off and on again (i.e. restart chrome)</li>
+      <li>Close other tabs / apps</li>
+      <li>Try Incognito window (sometimes browser extensions interfere)</li>
+      <li>Message Ray on Facebook if you're still having problems</li>
+    </ul>
+  <p><button onClick="randomIntro()">I've disabled Adblock. Let's Go!</button></p>
 </body>
 </html>
