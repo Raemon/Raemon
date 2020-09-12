@@ -7,3 +7,16 @@ body {
 li {
   margin-bottom: 6px;
 }
+
+button {
+  backgroundColor: blue;
+  border:none;
+  padding: 12px 16px;
+  borderRadius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .5
+}
